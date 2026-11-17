@@ -1,0 +1,17 @@
+{
+  "_about": "Places that identify a delivery country. A delivery country is accepted only when the quoted text names one of these.",
+  "countries": {
+    "DE": ["Deutschland", "Germany", "DE"], "NL": ["Niederlande", "Netherlands", "Holland", "NL"],
+    "BE": ["Belgien", "Belgium", "BE"], "PL": ["Polen", "Poland", "PL"], "CZ": ["Tschechien", "Czech Republic", "Czechia", "CZ"],
+    "AT": ["Österreich", "Austria", "AT"], "IT": ["Italien", "Italy", "IT"], "FR": ["Frankreich", "France", "FR"]
+  },
+  "cities": {
+    "Dortmund": "DE", "Duisburg": "DE", "Essen": "DE", "Bochum": "DE", "Hagen": "DE", "Siegen": "DE", "Köln": "DE", "Düsseldorf": "DE",
+    "Stuttgart": "DE", "München": "DE", "Nürnberg": "DE", "Augsburg": "DE", "Hamburg": "DE", "Bremen": "DE", "Hannover": "DE",
+    "Leipzig": "DE", "Chemnitz": "DE", "Dresden": "DE", "Berlin": "DE", "Mannheim": "DE", "Frankfurt": "DE", "Kassel": "DE",
+    "Bielefeld": "DE", "Saarbrücken": "DE", "Rotterdam": "NL", "Eindhoven": "NL", "Tilburg": "NL", "Venlo": "NL",
+    "Antwerpen": "BE", "Gent": "BE", "Liège": "BE", "Lüttich": "BE", "Katowice": "PL", "Wrocław": "PL", "Poznań": "PL",
+    "Ostrava": "CZ", "Brno": "CZ", "Linz": "AT", "Graz": "AT", "Wien": "AT", "Milano": "IT", "Brescia": "IT", "Verona": "IT",
+    "Lyon": "FR", "Strasbourg": "FR", "Lille": "FR", "Metz": "FR"
+  }
+}

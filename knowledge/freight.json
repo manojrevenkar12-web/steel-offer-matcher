@@ -1,0 +1,15 @@
+{
+  "_about": "Indicative full-truck freight in EUR per tonne between country zones, and transit days. Illustrative figures for ranking only; a live quote replaces them in production.",
+  "eur_per_t": {
+    "DE": {"DE": 28, "NL": 34, "BE": 36, "PL": 42, "CZ": 40, "AT": 38, "IT": 62, "FR": 48},
+    "NL": {"NL": 22, "BE": 26, "DE": 34, "PL": 55, "CZ": 52, "AT": 54, "IT": 72, "FR": 44},
+    "BE": {"BE": 22, "NL": 26, "DE": 36, "PL": 58, "CZ": 54, "AT": 56, "IT": 70, "FR": 38},
+    "PL": {"PL": 24, "DE": 42, "CZ": 32, "NL": 55, "BE": 58, "AT": 44, "IT": 74, "FR": 66},
+    "CZ": {"CZ": 22, "DE": 40, "PL": 32, "AT": 30, "NL": 52, "BE": 54, "IT": 60, "FR": 62},
+    "AT": {"AT": 22, "DE": 38, "CZ": 30, "IT": 46, "PL": 44, "NL": 54, "BE": 56, "FR": 58},
+    "IT": {"IT": 26, "AT": 46, "DE": 62, "FR": 54, "CZ": 60, "PL": 74, "NL": 72, "BE": 70},
+    "FR": {"FR": 26, "BE": 38, "DE": 48, "NL": 44, "IT": 54, "AT": 58, "CZ": 62, "PL": 66}
+  },
+  "transit_days": {"same": 2, "neighbour": 3, "far": 5},
+  "neighbours": [["DE","NL"],["DE","BE"],["DE","PL"],["DE","CZ"],["DE","AT"],["DE","FR"],["NL","BE"],["BE","FR"],["PL","CZ"],["CZ","AT"],["AT","IT"],["IT","FR"]]
+}

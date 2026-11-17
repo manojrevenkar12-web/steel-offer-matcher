@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-03-22",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "DD11",
+    "length_mm": 2000.0,
+    "line": 1,
+    "quantity_t": 25.0,
+    "thickness_mm": 1.5,
+    "width_mm": 1000.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nwir benötigen 25.000 kg Bleche warmgewalzt in DD11, 1,5 x 1000 x 2000 mm.\nMit APZ 3.1 nach EN 10204.\nLieferung asap frei Werk Leipzig.\nAnfrage-Nr. 0322079\n\nMit freundlichen Grüßen\nTomasz Hoffmann\nSchulz Lasertechnik GmbH\nLeipzig",
+  "received": "2026-11-05",
+  "sender": "Tomasz Hoffmann <einkauf@b079.example>",
+  "subject": "Anfrage DD11"
+ },
+ "source": "trader correction"
+}

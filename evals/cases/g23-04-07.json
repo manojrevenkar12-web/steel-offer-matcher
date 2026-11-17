@@ -1,0 +1,35 @@
+{
+ "case_id": "g23-04-07",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S355JR",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 4.0,
+    "thickness_mm": 6.0,
+    "width_mm": 1415.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 15.0,
+    "thickness_mm": 10.0,
+    "width_mm": 1250.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n\n1. approx. 4 tons sheets hot rolled S355JR 6 x 1415 x 2500; target price EUR 770/t\n2. 15 mt coils hot rolled S235JR 10 x 1250 x C; target price EUR 715/t\n\ndelivery 2026-12-04 delivered Brescia.\nEnquiry no. 0407104\n\nBest regards\nTomasz Hoffmann\nBauer Behälterbau GmbH\nBrescia",
+  "received": "2026-11-06",
+  "sender": "Tomasz Hoffmann <einkauf@b104.example>",
+  "subject": "RFQ S355JR"
+ },
+ "source": "trader correction"
+}

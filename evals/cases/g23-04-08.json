@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-04-08",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "DD13",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 8.0,
+    "thickness_mm": 3.0,
+    "width_mm": 1250.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nwe need approx. 8 tons of hot rolled sheets in StW24, 3 x 1250 x 2500 mm.\nA higher grade is fine as well.\ndelivery week 49 delivered Venlo.\nEnquiry no. 0408008\n\nBest regards\nLukas Becker\nHoffmann Metallbau GmbH\nVenlo",
+  "received": "2026-11-06",
+  "sender": "Lukas Becker <einkauf@b008.example>",
+  "subject": "RFQ StW24"
+ },
+ "source": "trader correction"
+}

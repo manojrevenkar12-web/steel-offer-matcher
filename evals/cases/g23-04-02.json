@@ -1,0 +1,45 @@
+{
+ "case_id": "g23-04-02",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S355JR",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 11.0,
+    "thickness_mm": 4.0,
+    "width_mm": 1250.0
+   },
+   {
+    "finish": "coated",
+    "form": "sheet",
+    "grade_id": "DX51D",
+    "length_mm": 6000.0,
+    "line": 2,
+    "quantity_t": 10.0,
+    "thickness_mm": 0.8,
+    "width_mm": 1000.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 3,
+    "quantity_t": 15.0,
+    "thickness_mm": 8.0,
+    "width_mm": 2000.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n1. 11 t Bleche warmgewalzt S355JR 4 x 1.250 x 2500; Zielpreis 760 €/t\n2. 10 to Bleche feuerverzinkt DX 51 D Z140 0,8 x 1.000 x 6000 mm\n3. ca. 15 to Coils warmgewalzt RSt37-2 8,0 x 2000 x C\n\nGerne auch in höherer Güte.\nMit APZ 3.1 nach EN 10204.\nLieferung asap frei Werk Siegen.\nAnfrage-Nr. 0402102\n\nMit freundlichen Grüßen\nLukas Nowak\nWagner Maschinenbau GmbH\nSiegen",
+  "received": "2026-11-06",
+  "sender": "Lukas Nowak <einkauf@b102.example>",
+  "subject": "Anfrage S355JR"
+ },
+ "source": "trader correction"
+}

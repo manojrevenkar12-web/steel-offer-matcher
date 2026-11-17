@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-01-20",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S235JR",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 15.0,
+    "thickness_mm": 2.0,
+    "width_mm": 1000.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nwir benötigen 15.000 kg Bleche warmgewalzt in S235JR+AR, 2 x 1000 x 2500 mm.\nGerne auch in höherer Güte.\nLieferung sofort frei Werk Graz.\nAnfrage-Nr. 0120042\n\nMit freundlichen Grüßen\nTomasz Weber\nWagner Behälterbau GmbH\nGraz",
+  "received": "2026-11-03",
+  "sender": "Tomasz Weber <einkauf@b042.example>",
+  "subject": "Anfrage S235JR+AR"
+ },
+ "source": "trader correction"
+}

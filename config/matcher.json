@@ -1,0 +1,56 @@
+{
+  "_about": "Platform settings. The world never reads this file.",
+  "fit": {
+    "max_trim_pct": 6.0,
+    "edge_trim_mill_mm": 10.0,
+    "edge_trim_trimmed_mm": 4.0,
+    "full_lot_fraction": 0.9,
+    "partial_lot_fraction": 0.3,
+    "slitting_eur_t": 18.0,
+    "cut_to_length_eur_t": 22.0,
+    "price_review_pct": 3.0,
+    "late_review_days": 7,
+    "sanctioned_origins": [
+      "RU",
+      "BY"
+    ]
+  },
+  "extraction": {
+    "required_fields": [
+      "grade",
+      "thickness_mm",
+      "width_mm",
+      "quantity_t",
+      "form"
+    ],
+    "escalate_on_invalid_fields": 1
+  },
+  "matching": {
+    "offers_per_line": 3,
+    "search_candidates": 40,
+    "code_check_top_n": 25,
+    "rrf_k": 60
+  },
+  "harness": {
+    "max_model_requests": 8,
+    "max_tool_calls": 12,
+    "max_input_tokens": 24000,
+    "stop_after_searches_without_new": 2,
+    "tool_result_keep": 6,
+    "model_retries": 2
+  },
+  "review": {
+    "auto_send": false,
+    "explain_language": "de"
+  },
+  "routes": {
+    "extract": "extract",
+    "extract_hard": "extract-strong",
+    "stocklist_mapping": "mapping",
+    "match": "match",
+    "vision": "vision"
+  },
+  "learning": {
+    "alias_min_corrections": 2
+  }
+}

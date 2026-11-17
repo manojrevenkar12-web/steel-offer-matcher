@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-02-23",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "DD11",
+    "length_mm": 6000.0,
+    "line": 1,
+    "quantity_t": 10.0,
+    "thickness_mm": 5.0,
+    "width_mm": 1520.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nwe need 10 t of hot rolled sheets in DD11, 5 x 1520 x 6000. widths from 1420 mm also work, target price EUR 640/t.\ndelivery asap delivered Poznań.\nEnquiry no. 0223029\n\nBest regards\nMarco Wagner\nNowak Stahlbau GmbH\nPoznań",
+  "received": "2026-11-04",
+  "sender": "Marco Wagner <einkauf@b029.example>",
+  "subject": "RFQ DD11"
+ },
+ "source": "trader correction"
+}

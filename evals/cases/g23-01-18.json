@@ -1,0 +1,35 @@
+{
+ "case_id": "g23-01-18",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S355J2",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 14.0,
+    "thickness_mm": 4.0,
+    "width_mm": 1190.0
+   },
+   {
+    "finish": "stainless",
+    "form": "strip",
+    "grade_id": "1.4301",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 15.0,
+    "thickness_mm": 1.25,
+    "width_mm": 495.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n1. 14 to Coils warmgewalzt S355J2 4 x 1.190 x Coil mm\n2. 15 to Spaltband Edelstahl 1.4301 1,25 x 495 x Coil, Oberfläche 1D; Zielpreis 3030 €/t\n\nLieferung sofort frei Werk Dortmund.\nAnfrage-Nr. 0118071\n\nMit freundlichen Grüßen\nPetra Becker\nLange Behälterbau GmbH\nDortmund",
+  "received": "2026-11-03",
+  "sender": "Petra Becker <einkauf@b071.example>",
+  "subject": "Anfrage S355J2"
+ },
+ "source": "trader correction"
+}

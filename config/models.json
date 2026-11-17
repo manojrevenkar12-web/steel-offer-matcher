@@ -1,0 +1,13 @@
+{
+  "_about": "LiteLLM gateway: route aliases the agents call, the deployments behind them, fallbacks and prices. Offline runs use the 'sim/' provider registered by the evaluation harness; production swaps the litellm_params (see models.production.example.json). Prices are EUR per million tokens.",
+  "deployments": [
+    {"route": "extract",        "model": "sim/fast-commercial",   "price_in": 0.35, "price_out": 1.40, "timeout_s": 30},
+    {"route": "extract-strong", "model": "sim/strong-commercial", "price_in": 2.80, "price_out": 11.0, "timeout_s": 60},
+    {"route": "mapping",        "model": "sim/open-weights-8b",   "price_in": 0.06, "price_out": 0.06, "timeout_s": 20},
+    {"route": "match",          "model": "sim/fast-commercial",   "price_in": 0.35, "price_out": 1.40, "timeout_s": 30},
+    {"route": "vision",         "model": "sim/vision",            "price_in": 0.90, "price_out": 3.60, "timeout_s": 45}
+  ],
+  "fallbacks": {"extract": ["extract-strong"], "mapping": ["extract"], "match": ["extract-strong"]},
+  "num_retries": 2,
+  "retry_after_s": 0
+}

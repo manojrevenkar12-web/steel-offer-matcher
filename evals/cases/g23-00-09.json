@@ -1,0 +1,41 @@
+{
+ "case_id": "g23-00-09",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "strip",
+    "grade_id": "S235J2",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 11.0,
+    "thickness_mm": 12.0,
+    "width_mm": 200.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S235JR",
+    "length_mm": 2500.0,
+    "line": 2,
+    "quantity_t": 8.0,
+    "thickness_mm": 15.0,
+    "width_mm": 1415.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [
+   {
+    "content_type": "application/pdf",
+    "data_b64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0NvbnRlbnRzIDcgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgNiAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNCAwIG9iago8PAovUGFnZU1vZGUgL1VzZU5vbmUgL1BhZ2VzIDYgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9BdXRob3IgKGFub255bW91cykgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9DcmVhdG9yIChhbm9ueW1vdXMpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAogIC9TdWJqZWN0ICh1bnNwZWNpZmllZCkgL1RpdGxlICh1bnRpdGxlZCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago2IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgMyAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMjI5Cj4+CnN0cmVhbQpHYXJwJF0rMEVYJ0VsZT5ZRipjJEhMSi8/WnRjcyVMLWtTPTxXbWZTVyEpL0BsTz83V2BuM3M+YWRjY04jW0QkJ0o/X0NpYGFCKzpKPGBxYiRWWDpUZVBrO0lHS1djSSc3OnVATFpVIVwkQ2YnIUEiJyU4Z1okZTlmdGslRihJTVFcJFBtLD5Hc0hWXT1oMWo2KUFjVmYxcXFXLz82VXI2QEYjPV1oXl1yYVkqZCM4czZOIyRYOyguLSZSaDtAU0FpbCZyYXIiKWtLP1UjZiVuSlpgT1wrVzZtIjYoJXMrcERsMn4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgOAowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDA5MiAwMDAwMCBuIAowMDAwMDAwMTk5IDAwMDAwIG4gCjAwMDAwMDA0MDIgMDAwMDAgbiAKMDAwMDAwMDQ3MCAwMDAwMCBuIAowMDAwMDAwNzMxIDAwMDAwIG4gCjAwMDAwMDA3OTAgMDAwMDAgbiAKdHJhaWxlcgo8PAovSUQgCls8Y2RiMDU0YWIzYTc2MWYxZDUzMDFkN2YzYTUxMmFiNWI+PGNkYjA1NGFiM2E3NjFmMWQ1MzAxZDdmM2E1MTJhYjViPl0KJSBSZXBvcnRMYWIgZ2VuZXJhdGVkIFBERiBkb2N1bWVudCAtLSBkaWdlc3QgKG9wZW5zb3VyY2UpCgovSW5mbyA1IDAgUgovUm9vdCA0IDAgUgovU2l6ZSA4Cj4+CnN0YXJ0eHJlZgoxMTA5CiUlRU9GCg==",
+    "filename": "Anfrage.pdf"
+   }
+  ],
+  "body": "Sehr geehrte Damen und Herren,\n\nAnfrage siehe PDF.\nBitte keine Asienware.\nLieferung asap frei Werk Leipzig.\nAnfrage-Nr. 0009016\n\nMit freundlichen Grüßen\nClaudia Klein\nde Vries Metallbau GmbH\nLeipzig",
+  "received": "2026-11-02",
+  "sender": "Claudia Klein <einkauf@b016.example>",
+  "subject": "Anfrage St37-3N"
+ },
+ "source": "trader correction"
+}

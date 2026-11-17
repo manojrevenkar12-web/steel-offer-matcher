@@ -1,0 +1,35 @@
+{
+ "case_id": "g23-03-17",
+ "expected": {
+  "lines": [
+   {
+    "finish": "coated",
+    "form": "sheet",
+    "grade_id": "DX51D",
+    "length_mm": 6000.0,
+    "line": 1,
+    "quantity_t": 7.0,
+    "thickness_mm": 2.0,
+    "width_mm": 1500.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S275JR",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 9.0,
+    "thickness_mm": 20.0,
+    "width_mm": 700.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n1. 7 t Bleche feuerverzinkt DX51D Z200 2,0 x 1500 x 6000; Zielpreis 890 €/t\n2. 9 to Coils warmgewalzt S275JR 20 x 700 x C\n\nMit APZ 3.1 nach EN 10204.\nLieferung sofort frei Werk Dortmund.\nAnfrage-Nr. 0317071\n\nMit freundlichen Grüßen\nPetra Becker\nLange Behälterbau GmbH\nDortmund",
+  "received": "2026-11-05",
+  "sender": "Petra Becker <einkauf@b071.example>",
+  "subject": "Anfrage DX51D Z200"
+ },
+ "source": "trader correction"
+}

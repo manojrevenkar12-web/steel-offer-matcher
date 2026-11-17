@@ -1,0 +1,31 @@
+{
+ "case_id": "g23-01-23",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S235JR",
+    "length_mm": 6000.0,
+    "line": 1,
+    "quantity_t": 40.0,
+    "thickness_mm": 12.0,
+    "width_mm": 2000.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [
+   {
+    "content_type": "application/pdf",
+    "data_b64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0NvbnRlbnRzIDcgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgNiAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNCAwIG9iago8PAovUGFnZU1vZGUgL1VzZU5vbmUgL1BhZ2VzIDYgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9BdXRob3IgKGFub255bW91cykgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9DcmVhdG9yIChhbm9ueW1vdXMpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAogIC9TdWJqZWN0ICh1bnNwZWNpZmllZCkgL1RpdGxlICh1bnRpdGxlZCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago2IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgMyAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMTc0Cj4+CnN0cmVhbQpHYXI/KV8kWWNaJ0xoYkZgRT80TEk7Y0U1PkA9TFRibiE0JT1aQiM3SmMxIUY3NyFEaWlQPCEqJkhuWnFqQylncUcpQDJTTTVHOU1oLER0aV9lJWlpOUQoSFAmb25TY0I9O05zbVdgXnMnWz9Tcm1ASkNjJUQyQm9aSjgtLmBoXDFzb1RhS2tWZVE8Pj5NJjtlK1k5dGlFNTc4OCI3KjUpczRKWkQhRm1RMmA7fj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA4CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMDkyIDAwMDAwIG4gCjAwMDAwMDAxOTkgMDAwMDAgbiAKMDAwMDAwMDQwMiAwMDAwMCBuIAowMDAwMDAwNDcwIDAwMDAwIG4gCjAwMDAwMDA3MzEgMDAwMDAgbiAKMDAwMDAwMDc5MCAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzw4YTEwNjk2OTg0NzBkMDEwMmE5M2YwMDMxY2MyZmVlZD48OGExMDY5Njk4NDcwZDAxMDJhOTNmMDAzMWNjMmZlZWQ+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDUgMCBSCi9Sb290IDQgMCBSCi9TaXplIDgKPj4Kc3RhcnR4cmVmCjEwNTQKJSVFT0YK",
+    "filename": "RFQ.pdf"
+   }
+  ],
+  "body": "Dear Sir or Madam,\n\nRFQ in the attached PDF.\nA higher grade is fine as well.\nNo Asian material, please.\ndelivery asap delivered Gent.\nEnquiry no. 0123033\n\nBest regards\nClaudia Kaya\nKaya Behälterbau GmbH\nGent",
+  "received": "2026-11-03",
+  "sender": "Claudia Kaya <einkauf@b033.example>",
+  "subject": "RFQ St37"
+ },
+ "source": "trader correction"
+}

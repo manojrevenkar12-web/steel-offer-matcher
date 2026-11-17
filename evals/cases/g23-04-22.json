@@ -1,0 +1,45 @@
+{
+ "case_id": "g23-04-22",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S235JR",
+    "length_mm": 2000.0,
+    "line": 1,
+    "quantity_t": 25.0,
+    "thickness_mm": 1.5,
+    "width_mm": 1250.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S275JR",
+    "length_mm": 3000.0,
+    "line": 2,
+    "quantity_t": 10.0,
+    "thickness_mm": 2.5,
+    "width_mm": 1415.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S355J2",
+    "length_mm": 6000.0,
+    "line": 3,
+    "quantity_t": 2.0,
+    "thickness_mm": 2.5,
+    "width_mm": 2000.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n\n1. ca. 25 to Bleche warmgewalzt S235JR 1,5 x 1.250 x 2000 mm\n2. 10 t Bleche warmgewalzt S275JR 2,5 x 1415 x 3000 mm\n3. 2 t Bleche warmgewalzt St52-3N 2,5 x 2000 x 6000 mm; Breite ab 1750 mm auch möglich\n\nLieferung 28.11. frei Werk Graz.\nAnfrage-Nr. 0422042\n\nMit freundlichen Grüßen\nTomasz Weber\nWagner Behälterbau GmbH\nGraz",
+  "received": "2026-11-06",
+  "sender": "Tomasz Weber <einkauf@b042.example>",
+  "subject": "Anfrage S235JR"
+ },
+ "source": "trader correction"
+}

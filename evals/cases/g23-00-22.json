@@ -1,0 +1,35 @@
+{
+ "case_id": "g23-00-22",
+ "expected": {
+  "lines": [
+   {
+    "finish": "cold_rolled",
+    "form": "sheet",
+    "grade_id": "DC04",
+    "length_mm": 6000.0,
+    "line": 1,
+    "quantity_t": 10.0,
+    "thickness_mm": 0.6,
+    "width_mm": 1000.0
+   },
+   {
+    "finish": "coated",
+    "form": "sheet",
+    "grade_id": "DX51D",
+    "length_mm": 6000.0,
+    "line": 2,
+    "quantity_t": 40.0,
+    "thickness_mm": 1.25,
+    "width_mm": 1220.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n\n1. 10 t sheets cold rolled St14 0.6 x 1000 x 6000 mm\n2. 40 mt sheets hot-dip galvanised 1.0917 Z140 1.25 x 1220 x 6000\n\nA higher grade is fine as well.\ndelivery 2026-11-22 delivered Rotterdam.\nEnquiry no. 0022009\n\nBest regards\nClaudia Bauer\nHoffmann Stahlbau GmbH\nRotterdam",
+  "received": "2026-11-02",
+  "sender": "Claudia Bauer <einkauf@b009.example>",
+  "subject": "RFQ St14"
+ },
+ "source": "trader correction"
+}

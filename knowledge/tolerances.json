@@ -1,0 +1,24 @@
+{
+  "_about": "Commercial thickness tolerances used for matching, simplified from EN 10051 (hot rolled) and EN 10131 (cold rolled). Each rule is a plus-minus band in mm for a thickness range. A stock item matches when its nominal thickness lies within the band around the requested thickness. Not a substitute for the standards.",
+  "thickness": {
+    "hot_rolled": [
+      {"max_mm": 2.0, "band_mm": 0.17},
+      {"max_mm": 3.0, "band_mm": 0.19},
+      {"max_mm": 5.0, "band_mm": 0.22},
+      {"max_mm": 8.0, "band_mm": 0.26},
+      {"max_mm": 15.0, "band_mm": 0.35},
+      {"max_mm": 25.0, "band_mm": 0.45},
+      {"max_mm": 400.0, "band_mm": 0.70}
+    ],
+    "cold_rolled": [
+      {"max_mm": 0.4, "band_mm": 0.03},
+      {"max_mm": 0.8, "band_mm": 0.05},
+      {"max_mm": 1.2, "band_mm": 0.06},
+      {"max_mm": 1.6, "band_mm": 0.08},
+      {"max_mm": 2.0, "band_mm": 0.10},
+      {"max_mm": 3.0, "band_mm": 0.12}
+    ]
+  },
+  "width": {"mill_edge_over_mm": 20, "trimmed_over_mm": 3},
+  "length": {"over_mm": 10}
+}

@@ -1,0 +1,35 @@
+{
+ "case_id": "g23-04-24",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S355J2",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 23.0,
+    "thickness_mm": 20.0,
+    "width_mm": 745.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 14.0,
+    "thickness_mm": 3.0,
+    "width_mm": 1340.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n1. approx. 23 tons coils hot rolled 1.0577 20 x 745 x C\n2. 14 mt coils hot rolled S235JR 3 x 1340 x C; target price EUR 690/t\n\nWith 3.1 certificate to EN 10204.\ndelivery week 46 delivered Metz.\nEnquiry no. 0424103\n\nBest regards\nPetra Rossi\nHoffmann Anlagenbau GmbH\nMetz",
+  "received": "2026-11-06",
+  "sender": "Petra Rossi <einkauf@b103.example>",
+  "subject": "RFQ 1.0577"
+ },
+ "source": "trader correction"
+}

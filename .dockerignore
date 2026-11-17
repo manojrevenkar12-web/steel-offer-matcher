@@ -1,0 +1,5 @@
+.venv
+console/node_modules
+console/dist
+**/__pycache__
+.git

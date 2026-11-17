@@ -1,0 +1,31 @@
+{
+ "case_id": "g23-00-11",
+ "expected": {
+  "lines": [
+   {
+    "finish": "coated",
+    "form": "sheet",
+    "grade_id": "DX51D",
+    "length_mm": 6000.0,
+    "line": 1,
+    "quantity_t": 8.0,
+    "thickness_mm": 0.75,
+    "width_mm": 1340.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [
+   {
+    "content_type": "application/pdf",
+    "data_b64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0NvbnRlbnRzIDcgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgNiAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNCAwIG9iago8PAovUGFnZU1vZGUgL1VzZU5vbmUgL1BhZ2VzIDYgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9BdXRob3IgKGFub255bW91cykgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9DcmVhdG9yIChhbm9ueW1vdXMpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAogIC9TdWJqZWN0ICh1bnNwZWNpZmllZCkgL1RpdGxlICh1bnRpdGxlZCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago2IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgMyAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMTg3Cj4+CnN0cmVhbQpHYXI/KVltUShaKGU0N2tpZiJWR3MpNEAvTSlJNkora2Y4Y0F1PHAkX2c7L01NTHEuNDMsbTBAI19KKEBbI2M0KE5NNkhONnBpV0dDcnNyX19lJW9GUWctWEQkJkpxYkFcLjslR0dtJlZIJEFMZ0dGcjs9Ui8rSy8tYydKcDgpZkAyOWdzQjpgUi5UO2hSXTIhTzFLLDBBMzF0XUBpclckWkE5XzBGO1lEZlgtX0dINTlFUmpDamUnZn4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgOAowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDA5MiAwMDAwMCBuIAowMDAwMDAwMTk5IDAwMDAwIG4gCjAwMDAwMDA0MDIgMDAwMDAgbiAKMDAwMDAwMDQ3MCAwMDAwMCBuIAowMDAwMDAwNzMxIDAwMDAwIG4gCjAwMDAwMDA3OTAgMDAwMDAgbiAKdHJhaWxlcgo8PAovSUQgCls8OTc5ZjcwNTU2YWQ5MjFiODA2NjJiNWU2OTEzMTA2ZDk+PDk3OWY3MDU1NmFkOTIxYjgwNjYyYjVlNjkxMzEwNmQ5Pl0KJSBSZXBvcnRMYWIgZ2VuZXJhdGVkIFBERiBkb2N1bWVudCAtLSBkaWdlc3QgKG9wZW5zb3VyY2UpCgovSW5mbyA1IDAgUgovUm9vdCA0IDAgUgovU2l6ZSA4Cj4+CnN0YXJ0eHJlZgoxMDY3CiUlRU9GCg==",
+    "filename": "Anfrage.pdf"
+   }
+  ],
+  "body": "Sehr geehrte Damen und Herren,\n\nAnfrage siehe PDF.\nLieferung 02.12. frei Werk Linz.\nAnfrage-Nr. 0011063\n\nMit freundlichen Grüßen\nStefan de Vries\nKlein Stahlbau GmbH\nLinz",
+  "received": "2026-11-02",
+  "sender": "Stefan de Vries <einkauf@b063.example>",
+  "subject": "Anfrage DX 51 D Z275"
+ },
+ "source": "trader correction"
+}

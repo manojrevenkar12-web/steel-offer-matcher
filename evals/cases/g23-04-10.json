@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-04-10",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 7.0,
+    "thickness_mm": 6.0,
+    "width_mm": 1340.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nwe need 7 t of hot rolled coils in S235JR, 6 x 1340 x coil mm. widths from 1240 mm also work.\nA higher grade is fine as well.\nSecond choice is acceptable.\nWith 3.1 certificate to EN 10204.\ndelivery asap delivered Poznań.\nEnquiry no. 0410007\n\nBest regards\nEva Hoffmann\nSchulz Fahrzeugtechnik GmbH\nPoznań",
+  "received": "2026-11-06",
+  "sender": "Eva Hoffmann <einkauf@b007.example>",
+  "subject": "RFQ S235JR"
+ },
+ "source": "trader correction"
+}

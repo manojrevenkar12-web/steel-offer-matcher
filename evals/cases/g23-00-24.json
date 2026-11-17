@@ -1,0 +1,45 @@
+{
+ "case_id": "g23-00-24",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "strip",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 14.0,
+    "thickness_mm": 15.0,
+    "width_mm": 150.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 14.0,
+    "thickness_mm": 3.0,
+    "width_mm": 1340.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235J2",
+    "length_mm": null,
+    "line": 3,
+    "quantity_t": 8.0,
+    "thickness_mm": 2.5,
+    "width_mm": 2000.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n\n1. 14 mt slit strip hot rolled S235JR 15 x 150 x C; target price EUR 665/t\n2. approx. 14 tons coils hot rolled St37-2 3 x 1340 x coil\n3. approx. 8 tons coils hot rolled S235 J2G3 2.5 x 2000 x C mm\n\ndelivery 2026-11-20 delivered Lyon.\nEnquiry no. 0024014\n\nBest regards\nClaudia Weber\nNowak Lasertechnik GmbH\nLyon",
+  "received": "2026-11-02",
+  "sender": "Claudia Weber <einkauf@b014.example>",
+  "subject": "RFQ S235JR"
+ },
+ "source": "trader correction"
+}

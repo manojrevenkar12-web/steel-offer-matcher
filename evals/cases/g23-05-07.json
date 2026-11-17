@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-05-07",
+ "expected": {
+  "lines": [
+   {
+    "finish": "coated",
+    "form": "strip",
+    "grade_id": "DX51D",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 17.0,
+    "thickness_mm": 1.5,
+    "width_mm": 440.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n\n1. 17 mt slit strip hot-dip galvanised DX51 Z140 1.5 x 440 x C; target price EUR 860/t\n\ndelivery week 48 delivered Brno.\nEnquiry no. 0507065\n\nBest regards\nTomasz Kaya\nLange Stahlbau GmbH\nBrno",
+  "received": "2026-11-07",
+  "sender": "Tomasz Kaya <einkauf@b065.example>",
+  "subject": "RFQ DX51 Z140"
+ },
+ "source": "trader correction"
+}

@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-03-25",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S355J2",
+    "length_mm": 3000.0,
+    "line": 1,
+    "quantity_t": 25.0,
+    "thickness_mm": 6.0,
+    "width_mm": 1250.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nwe need 25 t of hot rolled sheets in S355J2+N, 6 x 1250 x 3000. target price EUR 790/t.\nEquivalent grade acceptable.\ndelivery week 49 delivered Metz.\nEnquiry no. 0325036\n\nBest regards\nClaudia Wagner\nBauer Lasertechnik GmbH\nMetz",
+  "received": "2026-11-05",
+  "sender": "Claudia Wagner <einkauf@b036.example>",
+  "subject": "RFQ S355J2+N"
+ },
+ "source": "trader correction"
+}

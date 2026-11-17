@@ -1,0 +1,45 @@
+{
+ "case_id": "g23-01-12",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "plate",
+    "grade_id": "S235J2",
+    "length_mm": 2000.0,
+    "line": 1,
+    "quantity_t": 20.0,
+    "thickness_mm": 5.0,
+    "width_mm": 1250.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S355J2",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 5.0,
+    "thickness_mm": 8.0,
+    "width_mm": 1830.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S235JR",
+    "length_mm": 6000.0,
+    "line": 3,
+    "quantity_t": 5.0,
+    "thickness_mm": 2.0,
+    "width_mm": 2000.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n1. approx. 20 tons plates hot rolled 1.0117 5 x 1250 x 2000; target price EUR 680/t\n2. 5 t coils hot rolled St52-3 8 x 1830 x C mm; target price EUR 805/t\n3. approx. 5 tons sheets hot rolled S235JR 2 x 2000 x 6000\n\nA higher grade is fine as well.\ndelivery week 47 delivered Poznań.\nEnquiry no. 0112109\n\nBest regards\nMarco Lange\nWagner Lasertechnik GmbH\nPoznań",
+  "received": "2026-11-03",
+  "sender": "Marco Lange <einkauf@b109.example>",
+  "subject": "RFQ 1.0117"
+ },
+ "source": "trader correction"
+}

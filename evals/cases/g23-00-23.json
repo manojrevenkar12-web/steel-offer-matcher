@@ -1,0 +1,45 @@
+{
+ "case_id": "g23-00-23",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S355J2",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 11.0,
+    "thickness_mm": 20.0,
+    "width_mm": 1500.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S275JR",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 12.0,
+    "thickness_mm": 2.5,
+    "width_mm": 1340.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S235JR",
+    "length_mm": 2000.0,
+    "line": 3,
+    "quantity_t": 12.0,
+    "thickness_mm": 10.0,
+    "width_mm": 1250.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n\n1. 11.000 kg Bleche warmgewalzt S355J2 20,0 x 1500 x 2500; Zielpreis 825 €/t\n2. 12 to Coils warmgewalzt S275JR+AR 2,5 x 1340 x Coil\n3. 12 t Bleche warmgewalzt S235JR 10 x 1.250 x 2000\n\n2. Wahl ist für uns auch interessant.\nLieferung 30.11. frei Werk Hagen.\nAnfrage-Nr. 0023060\n\nMit freundlichen Grüßen\nJan Wagner\nWeber Stahlbau GmbH\nHagen",
+  "received": "2026-11-02",
+  "sender": "Jan Wagner <einkauf@b060.example>",
+  "subject": "Anfrage S355J2"
+ },
+ "source": "trader correction"
+}

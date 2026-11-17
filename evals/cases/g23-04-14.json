@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-04-14",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S355JR",
+    "length_mm": 6000.0,
+    "line": 1,
+    "quantity_t": 2.0,
+    "thickness_mm": 20.0,
+    "width_mm": 1830.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nwir benötigen 2 t Bleche warmgewalzt in 1.0045, 20,0 x 1830 x 6000. Zielpreis 695 €/t.\nMit APZ 3.1 nach EN 10204.\nLieferung 25.11. frei Werk Stuttgart.\nAnfrage-Nr. 0414017\n\nMit freundlichen Grüßen\nMarco Hoffmann\nSchulz Metallbau GmbH\nStuttgart",
+  "received": "2026-11-06",
+  "sender": "Marco Hoffmann <einkauf@b017.example>",
+  "subject": "Anfrage 1.0045"
+ },
+ "source": "trader correction"
+}

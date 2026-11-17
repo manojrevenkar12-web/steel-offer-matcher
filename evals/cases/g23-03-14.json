@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-03-14",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "DD11",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 2.0,
+    "thickness_mm": 2.5,
+    "width_mm": 1520.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nwe need 2 t of hot rolled sheets in DD11, 2.5 x 1520 x 2500 mm.\nA higher grade is fine as well.\nWith 3.1 certificate to EN 10204.\ndelivery week 48 delivered Brno.\nEnquiry no. 0314123\n\nBest regards\nPieter Klein\nKaya Stahlbau GmbH\nBrno",
+  "received": "2026-11-05",
+  "sender": "Pieter Klein <einkauf@b123.example>",
+  "subject": "RFQ DD11"
+ },
+ "source": "trader correction"
+}

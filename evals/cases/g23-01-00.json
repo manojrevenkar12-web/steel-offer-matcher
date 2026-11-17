@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-01-00",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 20.0,
+    "thickness_mm": 10.0,
+    "width_mm": 1250.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nwir benötigen 20 t Coils warmgewalzt in S235JR+N, 10 x 1250 x Coil mm.\nGerne auch in höherer Güte.\nMit APZ 3.1 nach EN 10204.\nLieferung asap frei Werk Linz.\nAnfrage-Nr. 0100127\n\nMit freundlichen Grüßen\nMarco Becker\nKlein Anlagenbau GmbH\nLinz",
+  "received": "2026-11-03",
+  "sender": "Marco Becker <einkauf@b127.example>",
+  "subject": "Anfrage S235JR+N"
+ },
+ "source": "trader correction"
+}

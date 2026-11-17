@@ -1,0 +1,45 @@
+{
+ "case_id": "g23-01-01",
+ "expected": {
+  "lines": [
+   {
+    "finish": "coated",
+    "form": "sheet",
+    "grade_id": "DX51D",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 2.0,
+    "thickness_mm": 0.75,
+    "width_mm": 1340.0
+   },
+   {
+    "finish": "cold_rolled",
+    "form": "coil",
+    "grade_id": "DC01",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 40.0,
+    "thickness_mm": 0.6,
+    "width_mm": 1220.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 3,
+    "quantity_t": 8.0,
+    "thickness_mm": 6.0,
+    "width_mm": 1830.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n\n1. ca. 2 to Bleche feuerverzinkt DX51D Z100 0,75 x 1340 x 2500\n2. ca. 40 to Coils kaltgewalzt DC01 0,6 x 1.220 x C mm\n3. 8.000 kg Coils warmgewalzt 1.0038 6 x 1830 x C mm\n\n2. Wahl ist für uns auch interessant.\nLieferung asap frei Werk Chemnitz.\nAnfrage-Nr. 0101081\n\nMit freundlichen Grüßen\nJan Lange\nBauer Maschinenbau GmbH\nChemnitz",
+  "received": "2026-11-03",
+  "sender": "Jan Lange <einkauf@b081.example>",
+  "subject": "Anfrage DX51D Z100"
+ },
+ "source": "trader correction"
+}

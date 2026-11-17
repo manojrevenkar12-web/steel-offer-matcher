@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-05-02",
+ "expected": {
+  "lines": [
+   {
+    "finish": "cold_rolled",
+    "form": "coil",
+    "grade_id": "DC01",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 15.0,
+    "thickness_mm": 1.25,
+    "width_mm": 1250.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n\n1. 15 t coils cold rolled DC01 1.25 x 1250 x coil mm; target price EUR 750/t\n\nWith 3.1 certificate to EN 10204.\ndelivery week 47 delivered Gent.\nEnquiry no. 0502114\n\nBest regards\nPieter Hoffmann\nSchulz Behälterbau GmbH\nGent",
+  "received": "2026-11-07",
+  "sender": "Pieter Hoffmann <einkauf@b114.example>",
+  "subject": "RFQ DC01"
+ },
+ "source": "trader correction"
+}

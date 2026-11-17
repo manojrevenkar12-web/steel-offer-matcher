@@ -1,0 +1,39 @@
+{
+ "models": {
+  "fast-commercial": {
+   "cost_per_rfq_eur": 0.00089,
+   "lines": 232,
+   "lines_decided_exactly": 164,
+   "lines_decided_wrongly": 0,
+   "p50_ms": 1500,
+   "p95_ms": 2131,
+   "raw_model_lines_wrong": 41,
+   "rfqs": 160,
+   "rfqs_sent_to_review": 67
+  },
+  "open-weights-8b": {
+   "cost_per_rfq_eur": 0.00011,
+   "lines": 232,
+   "lines_decided_exactly": 108,
+   "lines_decided_wrongly": 0,
+   "p50_ms": 586,
+   "p95_ms": 859,
+   "raw_model_lines_wrong": 97,
+   "rfqs": 160,
+   "rfqs_sent_to_review": 114
+  },
+  "strong-commercial": {
+   "cost_per_rfq_eur": 0.00756,
+   "lines": 232,
+   "lines_decided_exactly": 195,
+   "lines_decided_wrongly": 0,
+   "p50_ms": 3414,
+   "p95_ms": 5080,
+   "raw_model_lines_wrong": 26,
+   "rfqs": 160,
+   "rfqs_sent_to_review": 36
+  }
+ },
+ "note": "Simulated model profiles (config/world.json), not measurements of named commercial models.",
+ "seed": 11
+}

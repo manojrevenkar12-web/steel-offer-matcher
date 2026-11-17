@@ -1,0 +1,35 @@
+{
+ "case_id": "g23-05-05",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 6.0,
+    "thickness_mm": 8.0,
+    "width_mm": 1340.0
+   },
+   {
+    "finish": "stainless",
+    "form": "strip",
+    "grade_id": "1.4301",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 12.0,
+    "thickness_mm": 2.0,
+    "width_mm": 620.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n\n1. 6 to Coils warmgewalzt S235JR 8 x 1340 x C mm\n2. ca. 12 to Spaltband Edelstahl 1.4301 2,0 x 620 x Coil mm, Oberfläche 1D; alternativ auch 2,5 mm; Zielpreis 3035 €/t\n\nLieferung asap frei Werk Leipzig.\nAnfrage-Nr. 0505055\n\nMit freundlichen Grüßen\nPieter Hoffmann\nLange Stahlbau GmbH\nLeipzig",
+  "received": "2026-11-07",
+  "sender": "Pieter Hoffmann <einkauf@b055.example>",
+  "subject": "Anfrage S235JR"
+ },
+ "source": "trader correction"
+}

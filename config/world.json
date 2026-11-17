@@ -1,0 +1,63 @@
+{
+  "_about": "The simulated market. Only the world and the simulated models read this file. The platform never does.",
+  "today": "2026-11-02",
+  "days": 20,
+  "suppliers": 32,
+  "lots_per_supplier": [25, 55],
+  "buyers": 140,
+  "rfqs_per_day": [18, 30],
+  "lines_per_rfq": {"1": 0.62, "2": 0.26, "3": 0.12},
+  "non_rfq_share": 0.08,
+  "formats": {"prose": 0.38, "inline_table": 0.24, "xlsx": 0.16, "pdf": 0.14, "image": 0.08},
+  "english_share": 0.3,
+  "stock_sold_per_day": 0.015,
+  "dev_seeds": [11, 23, 37],
+  "heldout_seeds": [9104, 9209],
+  "heldout_only": {
+    "_about": "Things only the held-out months contain, so a fix tuned on dev months cannot hide them.",
+    "extra_designations": {"S235JR": ["S 235 JR+AR (St 37-2)"], "S355J2": ["S355J2C+N"], "DC01": ["DC01+C290"]},
+    "extra_layouts": ["it_xlsx"],
+    "rfq_noise": {"grade_in_subject_only": 0.05}
+  },
+  "designation_variants": {
+    "_about": "How often a lot or request names its grade each way. 'kb_unknown' variants are spellings real traders use that a fresh knowledge base does not list.",
+    "canonical": 0.55, "number": 0.12, "legacy": 0.15, "suffix": 0.1, "kb_unknown": 0.08
+  },
+  "policy_rates": {
+    "upgrades_ok": 0.28, "upgrades_ambiguous": 0.07, "secondary_ok": 0.22, "certificate_3_1": 0.35, "certificate_3_2": 0.03,
+    "excluded_origin": 0.1, "alternative_thickness": 0.12, "width_range": 0.1, "max_price": 0.45, "delivery_by": 0.6
+  },
+  "lot_rates": {"secondary": 0.2, "cert_3_1": 0.55, "cert_3_2": 0.05, "mill_edge": 0.35, "origin_sanctioned": 0.015,
+                "origin_asian": 0.12, "available_later": 0.25},
+  "truth": {
+    "_about": "What buyers really accept. Independent of the platform's own rules.",
+    "max_trim_pct": 7.0,
+    "edge_trim_mm": 8,
+    "partial_lot_fraction": 0.3,
+    "full_lot_fraction": 0.9,
+    "price_tolerance_pct": 2.0,
+    "late_days_accepted": 5,
+    "processing_eur_t": {"slitting": 16, "cut_to_length": 24},
+    "freight_eur_t": {"same": 26, "neighbour": 38, "far": 64},
+    "claim_cost_eur": 2400,
+    "order_rate": 0.35
+  },
+  "minutes": {
+    "manual_read_rfq": 4.0, "manual_per_line": 13.0, "manual_quote_write": 5.0,
+    "review_item": 3.0, "approve_offer": 1.2, "model_decides_check": 2.0, "stocklist_manual_per_list": 25.0,
+    "trader_minutes_per_day": 900
+  },
+  "models": {
+    "_about": "How the simulated models behave. Error rates are per field or per decision.",
+    "sim/fast-commercial": {"miss": 0.03, "misread": 0.04, "paraphrase_quote": 0.05, "hallucinate": 0.06, "swap_dims": 0.03,
+                            "policy_overread": 0.35, "follow_alternatives": 0.8, "search_variants": 0.75, "transient_error": 0.02,
+                            "latency_ms": [700, 2200], "decide_loose": 0.12},
+    "sim/strong-commercial": {"miss": 0.01, "misread": 0.015, "paraphrase_quote": 0.015, "hallucinate": 0.02, "swap_dims": 0.01,
+                              "policy_overread": 0.12, "follow_alternatives": 0.95, "search_variants": 0.92, "transient_error": 0.01,
+                              "latency_ms": [1800, 5200], "decide_loose": 0.06},
+    "sim/open-weights-8b": {"miss": 0.08, "misread": 0.09, "paraphrase_quote": 0.12, "hallucinate": 0.1, "swap_dims": 0.08,
+                            "policy_overread": 0.5, "follow_alternatives": 0.5, "search_variants": 0.4, "transient_error": 0.03,
+                            "latency_ms": [300, 900], "decide_loose": 0.25, "mapping_swap": 0.12, "mapping_unit": 0.1},
+    "sim/vision": {"digit_noise": 0.04, "transient_error": 0.02, "latency_ms": [1500, 3500]}
+  }
+}

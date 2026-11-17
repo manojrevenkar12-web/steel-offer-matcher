@@ -1,0 +1,41 @@
+{
+ "case_id": "g23-03-02",
+ "expected": {
+  "lines": [
+   {
+    "finish": "cold_rolled",
+    "form": "sheet",
+    "grade_id": "DC04",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 10.0,
+    "thickness_mm": 0.75,
+    "width_mm": 1340.0
+   },
+   {
+    "finish": "coated",
+    "form": "sheet",
+    "grade_id": "DX51D",
+    "length_mm": 3000.0,
+    "line": 2,
+    "quantity_t": 10.0,
+    "thickness_mm": 0.6,
+    "width_mm": 1000.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [
+   {
+    "content_type": "application/pdf",
+    "data_b64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0NvbnRlbnRzIDcgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgNiAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNCAwIG9iago8PAovUGFnZU1vZGUgL1VzZU5vbmUgL1BhZ2VzIDYgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9BdXRob3IgKGFub255bW91cykgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9DcmVhdG9yIChhbm9ueW1vdXMpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAogIC9TdWJqZWN0ICh1bnNwZWNpZmllZCkgL1RpdGxlICh1bnRpdGxlZCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago2IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgMyAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMjc3Cj4+CnN0cmVhbQpHYXJvOjRccnNMJ0xoY3FNRTprUG1eOE9rV0IwUUgtOG11L01lXS1yZlEiLG8nKWskZCJDY202RGBIMG5rPT8vO1NGPWktcERWNCYkKXNSSmFAcC1rY2UuUiYmKk0wZTA5dEUqRWhYXE00Zys1LC5bREg/LTItYSdcVlpzMWQnKGVUSWkiU0BibVBzc0ckUE5PUWplQ1YnMmlbYVQ1WTRhKzlxIzFfO2JWUjppKDAyT0s0PFdUbExlJm1tJ2FjSE9TbSIkcWNpZkwoTjVwTXE/VzU8WXJfdGtcajJFaURkQ0xaPkdhXkdqMjE7MyUsQ1JsUkBGVSwkI3Q1KGBMbFQjdXFCVGdVWlYsJVA1PG8jcnVGUn4+ZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgOAowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwNjEgMDAwMDAgbiAKMDAwMDAwMDA5MiAwMDAwMCBuIAowMDAwMDAwMTk5IDAwMDAwIG4gCjAwMDAwMDA0MDIgMDAwMDAgbiAKMDAwMDAwMDQ3MCAwMDAwMCBuIAowMDAwMDAwNzMxIDAwMDAwIG4gCjAwMDAwMDA3OTAgMDAwMDAgbiAKdHJhaWxlcgo8PAovSUQgCls8MTVmNGRkZjAwM2M4NTA1YjBlYTM5NmRiMjRiMjZjOWU+PDE1ZjRkZGYwMDNjODUwNWIwZWEzOTZkYjI0YjI2YzllPl0KJSBSZXBvcnRMYWIgZ2VuZXJhdGVkIFBERiBkb2N1bWVudCAtLSBkaWdlc3QgKG9wZW5zb3VyY2UpCgovSW5mbyA1IDAgUgovUm9vdCA0IDAgUgovU2l6ZSA4Cj4+CnN0YXJ0eHJlZgoxMTU3CiUlRU9GCg==",
+    "filename": "RFQ.pdf"
+   }
+  ],
+  "body": "Dear Sir or Madam,\n\nRFQ in the attached PDF.\nA higher grade is fine as well.\nWith 3.1 certificate to EN 10204.\ndelivery 2026-11-27 delivered Venlo.\nEnquiry no. 0302023\n\nBest regards\nClaudia Nowak\nHoffmann Lasertechnik GmbH\nVenlo",
+  "received": "2026-11-05",
+  "sender": "Claudia Nowak <einkauf@b023.example>",
+  "subject": "RFQ DC04"
+ },
+ "source": "trader correction"
+}

@@ -1,0 +1,45 @@
+{
+ "case_id": "g23-03-24",
+ "expected": {
+  "lines": [
+   {
+    "finish": "cold_rolled",
+    "form": "coil",
+    "grade_id": "DC04",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 15.0,
+    "thickness_mm": 1.5,
+    "width_mm": 1000.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S235JR",
+    "length_mm": 2500.0,
+    "line": 2,
+    "quantity_t": 3.0,
+    "thickness_mm": 2.5,
+    "width_mm": 1830.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S235JR",
+    "length_mm": 2000.0,
+    "line": 3,
+    "quantity_t": 6.0,
+    "thickness_mm": 6.0,
+    "width_mm": 1190.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n1. 15 mt coils cold rolled St14 1.5 x 1000 x coil mm; widths from 750 mm also work\n2. 3 mt sheets hot rolled S235JR+N 2.5 x 1830 x 2500; target price EUR 755/t\n3. 6 t sheets hot rolled S235JR 6 x 1190 x 2000; 5 mm would also work; target price EUR 710/t\n\nWith 3.1 certificate to EN 10204.\ndelivery week 48 delivered Brescia.\nEnquiry no. 0324077\n\nBest regards\nAnna Rossi\nHoffmann Maschinenbau GmbH\nBrescia",
+  "received": "2026-11-05",
+  "sender": "Anna Rossi <einkauf@b077.example>",
+  "subject": "RFQ St14"
+ },
+ "source": "trader correction"
+}

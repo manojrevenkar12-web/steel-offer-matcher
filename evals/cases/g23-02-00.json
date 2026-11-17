@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-02-00",
+ "expected": {
+  "lines": [
+   {
+    "finish": "coated",
+    "form": "sheet",
+    "grade_id": "DX51D",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 5.0,
+    "thickness_mm": 2.5,
+    "width_mm": 1000.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n\n1. 5 t sheets hot-dip galvanised DX51D Z200 2.5 x 1000 x 2500 mm\n\nSecond choice is acceptable.\nWith 3.1 certificate to EN 10204.\ndelivery asap delivered Brescia.\nEnquiry no. 0200056\n\nBest regards\nJan Klein\nSchulz Behälterbau GmbH\nBrescia",
+  "received": "2026-11-04",
+  "sender": "Jan Klein <einkauf@b056.example>",
+  "subject": "RFQ DX51D Z200"
+ },
+ "source": "trader correction"
+}

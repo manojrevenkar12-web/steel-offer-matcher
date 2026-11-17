@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-04-04",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "plate",
+    "grade_id": "S355J2",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 10.0,
+    "thickness_mm": 15.0,
+    "width_mm": 1000.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n\n1. 10 mt plates hot rolled St52-3N 15 x 1000 x 2500\n\nWith 3.1 certificate to EN 10204.\nNo material of Chinese origin, please.\ndelivery asap delivered Poznań.\nEnquiry no. 0404037\n\nBest regards\nMarco Bauer\nRossi Lasertechnik GmbH\nPoznań",
+  "received": "2026-11-06",
+  "sender": "Marco Bauer <einkauf@b037.example>",
+  "subject": "RFQ St52-3N"
+ },
+ "source": "trader correction"
+}

@@ -1,0 +1,14 @@
+{
+  "_about": "Example production routing. litellm_params go to LiteLLM unchanged; keys come from the environment. Prices must be checked against the providers' current price lists before use.",
+  "deployments": [
+    {"route": "extract",        "model": "gemini/gemini-2.5-flash",         "price_in": 0.30, "price_out": 2.50, "timeout_s": 30},
+    {"route": "extract-strong", "model": "anthropic/claude-sonnet-4-5",     "price_in": 3.00, "price_out": 15.0, "timeout_s": 60},
+    {"route": "mapping",        "model": "hosted_vllm/Qwen/Qwen3-8B",       "price_in": 0.05, "price_out": 0.05, "timeout_s": 20,
+     "litellm_params": {"api_base": "http://vllm.steel.svc:8000/v1"}},
+    {"route": "match",          "model": "openai/gpt-4.1-mini",             "price_in": 0.40, "price_out": 1.60, "timeout_s": 30},
+    {"route": "vision",         "model": "gemini/gemini-2.5-flash",         "price_in": 0.30, "price_out": 2.50, "timeout_s": 45}
+  ],
+  "fallbacks": {"extract": ["extract-strong"], "mapping": ["extract"], "match": ["extract-strong"]},
+  "num_retries": 2,
+  "retry_after_s": 1
+}

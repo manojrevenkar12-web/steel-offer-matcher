@@ -1,0 +1,35 @@
+{
+ "case_id": "g23-01-06",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S355K2",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 15.0,
+    "thickness_mm": 10.0,
+    "width_mm": 1500.0
+   },
+   {
+    "finish": "stainless",
+    "form": "coil",
+    "grade_id": "1.4301",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 6.0,
+    "thickness_mm": 3.0,
+    "width_mm": 1340.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n\n1. ca. 15 to Coils warmgewalzt S355K2 10 x 1500 x Coil; Zielpreis 760 €/t\n2. 6.000 kg Coils Edelstahl 1.4301 3 x 1340 x Coil mm, Oberfläche BA\n\nHöhere Güte ist auch möglich.\nMit APZ 3.1 nach EN 10204.\nLieferung asap frei Werk Gütersloh.\nAnfrage-Nr. 0106116\n\nMit freundlichen Grüßen\nPetra Kaya\nLange Behälterbau GmbH\nGütersloh",
+  "received": "2026-11-03",
+  "sender": "Petra Kaya <einkauf@b116.example>",
+  "subject": "Anfrage S355K2"
+ },
+ "source": "trader correction"
+}

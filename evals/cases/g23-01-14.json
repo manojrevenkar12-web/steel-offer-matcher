@@ -1,0 +1,41 @@
+{
+ "case_id": "g23-01-14",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 4.0,
+    "thickness_mm": 10.0,
+    "width_mm": 1415.0
+   },
+   {
+    "finish": "cold_rolled",
+    "form": "coil",
+    "grade_id": "DC01",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 8.0,
+    "thickness_mm": 1.0,
+    "width_mm": 1220.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [
+   {
+    "content_type": "application/pdf",
+    "data_b64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0NvbnRlbnRzIDcgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgNiAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNCAwIG9iago8PAovUGFnZU1vZGUgL1VzZU5vbmUgL1BhZ2VzIDYgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9BdXRob3IgKGFub255bW91cykgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9DcmVhdG9yIChhbm9ueW1vdXMpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAogIC9TdWJqZWN0ICh1bnNwZWNpZmllZCkgL1RpdGxlICh1bnRpdGxlZCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago2IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgMyAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMjEyCj4+CnN0cmVhbQpHYXJwI182KmYpJ0xnRVtZTGwzcUVjNilvVmZXY0ReJiE7OytRdCJRTTw9K21MSExFXFNBQHRHOz9UOlQ+dDEzLSMnMzNiSVo2REtuLWBqQnAkVTdNcWQ5IiIlIyVwaCspK0xcbFJIXk8lJSYmMVFZZ20yaS00dGFwTEJgSmsrTXVMVSxbJjYxWTVJQmMwPzRpSGY/XGlqMVtzWS1lLCpEK1o3NVdEcl9oXylPQTQkUEUlOzwrM080RmVPWXVoKyNSZyMnLyMrMiIvWVlqRCs/ciR+PmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDgKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDYxIDAwMDAwIG4gCjAwMDAwMDAwOTIgMDAwMDAgbiAKMDAwMDAwMDE5OSAwMDAwMCBuIAowMDAwMDAwNDAyIDAwMDAwIG4gCjAwMDAwMDA0NzAgMDAwMDAgbiAKMDAwMDAwMDczMSAwMDAwMCBuIAowMDAwMDAwNzkwIDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDdiZjEzYTk3NjAzNmZkZjA2MjhmODgzYzk5ZTE4ODkxPjw3YmYxM2E5NzYwMzZmZGYwNjI4Zjg4M2M5OWUxODg5MT5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGlnZXN0IChvcGVuc291cmNlKQoKL0luZm8gNSAwIFIKL1Jvb3QgNCAwIFIKL1NpemUgOAo+PgpzdGFydHhyZWYKMTA5MgolJUVPRgo=",
+    "filename": "Anfrage.pdf"
+   }
+  ],
+  "body": "Sehr geehrte Damen und Herren,\n\nAnfrage siehe PDF.\nLieferung sofort frei Werk Duisburg.\nAnfrage-Nr. 0114020\n\nMit freundlichen Grüßen\nJan Klein\nde Vries Fahrzeugtechnik GmbH\nDuisburg",
+  "received": "2026-11-03",
+  "sender": "Jan Klein <einkauf@b020.example>",
+  "subject": "Anfrage St37-2"
+ },
+ "source": "trader correction"
+}

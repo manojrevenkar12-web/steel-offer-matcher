@@ -1,0 +1,35 @@
+{
+ "case_id": "g23-00-13",
+ "expected": {
+  "lines": [
+   {
+    "finish": "cold_rolled",
+    "form": "coil",
+    "grade_id": "DC01",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 11.0,
+    "thickness_mm": 0.5,
+    "width_mm": 1500.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "DD13",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 20.0,
+    "thickness_mm": 4.0,
+    "width_mm": 1250.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n\n1. 11 to Coils kaltgewalzt DC01 0,5 x 1.500 x Coil; alternativ auch 0,75 mm\n2. 20 t Coils warmgewalzt DD 13 P&O 4 x 1.250 x C\n\nBitte keine Ware aus China.\nLieferung asap frei Werk Bielefeld.\nAnfrage-Nr. 0013134\n\nMit freundlichen Grüßen\nMarkus Becker\nBecker Fahrzeugtechnik GmbH\nBielefeld",
+  "received": "2026-11-02",
+  "sender": "Markus Becker <einkauf@b134.example>",
+  "subject": "Anfrage DC01"
+ },
+ "source": "trader correction"
+}

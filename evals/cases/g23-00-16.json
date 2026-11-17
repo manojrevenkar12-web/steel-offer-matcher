@@ -1,0 +1,35 @@
+{
+ "case_id": "g23-00-16",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S235JR",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 7.0,
+    "thickness_mm": 12.0,
+    "width_mm": 1250.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S355J2",
+    "length_mm": 6000.0,
+    "line": 2,
+    "quantity_t": 7.0,
+    "thickness_mm": 20.0,
+    "width_mm": 1520.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n1. ca. 7 to Bleche warmgewalzt 1.0038 12 x 1.250 x 2500; Zielpreis 690 €/t\n2. 7 t Bleche warmgewalzt S355J2 20 x 1520 x 6000\n\nLieferung KW 46 frei Werk Bielefeld.\nAnfrage-Nr. 0016059\n\nMit freundlichen Grüßen\nMarkus Becker\nWeber Anlagenbau GmbH\nBielefeld",
+  "received": "2026-11-02",
+  "sender": "Markus Becker <einkauf@b059.example>",
+  "subject": "Anfrage 1.0038"
+ },
+ "source": "trader correction"
+}

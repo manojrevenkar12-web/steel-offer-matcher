@@ -1,0 +1,35 @@
+{
+ "case_id": "g23-03-08",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S355J2",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 25.0,
+    "thickness_mm": 2.0,
+    "width_mm": 1830.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "DD11",
+    "length_mm": 3000.0,
+    "line": 2,
+    "quantity_t": 10.0,
+    "thickness_mm": 5.0,
+    "width_mm": 2000.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n1. 25 t Coils warmgewalzt S355J2+N 2 x 1830 x Coil; Zielpreis 730 €/t\n2. ca. 10 to Bleche warmgewalzt DD11 5 x 2.000 x 3000; Zielpreis 735 €/t\n\nMit APZ 3.1 nach EN 10204.\nLieferung 17.11. frei Werk Kassel.\nAnfrage-Nr. 0308138\n\nMit freundlichen Grüßen\nMarco Bauer\nNowak Stahlbau GmbH\nKassel",
+  "received": "2026-11-05",
+  "sender": "Marco Bauer <einkauf@b138.example>",
+  "subject": "Anfrage S355J2+N"
+ },
+ "source": "trader correction"
+}

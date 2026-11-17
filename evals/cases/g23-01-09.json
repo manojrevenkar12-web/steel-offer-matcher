@@ -1,0 +1,35 @@
+{
+ "case_id": "g23-01-09",
+ "expected": {
+  "lines": [
+   {
+    "finish": "cold_rolled",
+    "form": "sheet",
+    "grade_id": "DC01",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 25.0,
+    "thickness_mm": 2.0,
+    "width_mm": 1500.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "DD11",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 7.0,
+    "thickness_mm": 5.0,
+    "width_mm": 1500.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n\n1. 25 to Bleche kaltgewalzt St 12-03 2 x 1.500 x 2500 mm; Zielpreis 750 €/t\n2. 7 t Coils warmgewalzt 1.0332 5,0 x 1500 x C; Breite ab 1400 mm auch möglich\n\nBitte keine Asienware.\nLieferung asap frei Werk Iserlohn.\nAnfrage-Nr. 0109106\n\nMit freundlichen Grüßen\nClaudia Weber\nHoffmann Lasertechnik GmbH\nIserlohn",
+  "received": "2026-11-03",
+  "sender": "Claudia Weber <einkauf@b106.example>",
+  "subject": "Anfrage St 12-03"
+ },
+ "source": "trader correction"
+}

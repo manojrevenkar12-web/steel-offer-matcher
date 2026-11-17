@@ -1,0 +1,23 @@
+# Local stack: Postgres with pgvector and the service on a simulated month.
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: steel
+      POSTGRES_PASSWORD: steel
+      POSTGRES_DB: steel
+    ports: ["5433:5432"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U steel"]
+      interval: 2s
+      retries: 20
+  service:
+    build: .
+    depends_on:
+      db: {condition: service_healthy}
+    environment:
+      STEEL_DATABASE_URL: postgresql+asyncpg://steel:steel@db:5432/steel
+      STEEL_ALLOWED_HOSTS: localhost,127.0.0.1,service
+      # LANGFUSE_PUBLIC_KEY / LANGFUSE_SECRET_KEY / LANGFUSE_HOST: set to trace into Langfuse
+    command: ["sh", "-c", "alembic upgrade head && python -m steeleval.serve"]
+    ports: ["8000:8000"]

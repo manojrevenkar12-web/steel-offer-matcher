@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-02-20",
+ "expected": {
+  "lines": [
+   {
+    "finish": "coated",
+    "form": "sheet",
+    "grade_id": "DX51D",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 8.0,
+    "thickness_mm": 2.5,
+    "width_mm": 1500.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nwe need approx. 8 tons of hot-dip galvanised sheets in DX51D Z100, 2.5 x 1500 x 2500 mm. widths from 1250 mm also work.\nEquivalent grade acceptable.\ndelivery asap delivered Poznań.\nEnquiry no. 0220019\n\nBest regards\nMarco Lange\nSchulz Anlagenbau GmbH\nPoznań",
+  "received": "2026-11-04",
+  "sender": "Marco Lange <einkauf@b019.example>",
+  "subject": "RFQ DX51D Z100"
+ },
+ "source": "trader correction"
+}

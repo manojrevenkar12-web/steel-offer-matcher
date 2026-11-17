@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-04-20",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 8.0,
+    "thickness_mm": 2.5,
+    "width_mm": 1830.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nwe need approx. 8 tons of hot rolled coils in S235JR, 2.5 x 1830 x coil. target price EUR 735/t.\nWith 3.1 certificate to EN 10204.\nNo material of Chinese origin, please.\ndelivery asap delivered Iserlohn.\nEnquiry no. 0420041\n\nBest regards\nAnna Weber\nSchulz Stahlbau GmbH\nIserlohn",
+  "received": "2026-11-06",
+  "sender": "Anna Weber <einkauf@b041.example>",
+  "subject": "RFQ S235JR"
+ },
+ "source": "trader correction"
+}

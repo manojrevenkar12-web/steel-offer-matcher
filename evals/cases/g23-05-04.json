@@ -1,0 +1,45 @@
+{
+ "case_id": "g23-05-04",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "strip",
+    "grade_id": "S355J2",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 5.0,
+    "thickness_mm": 2.0,
+    "width_mm": 295.0
+   },
+   {
+    "finish": "stainless",
+    "form": "sheet",
+    "grade_id": "1.4301",
+    "length_mm": 3000.0,
+    "line": 2,
+    "quantity_t": 7.0,
+    "thickness_mm": 4.0,
+    "width_mm": 1000.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "strip",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 3,
+    "quantity_t": 5.0,
+    "thickness_mm": 12.0,
+    "width_mm": 410.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n1. 5 to Spaltband warmgewalzt S355J2 2,0 x 295 x Coil mm; Zielpreis 790 €/t\n2. 7 t Bleche Edelstahl 1.4301 4 x 1000 x 3000 mm, Oberfläche 2B; Zielpreis 3050 €/t\n3. ca. 5 to Spaltband warmgewalzt S235JR 12 x 410 x C; Zielpreis 735 €/t\n\nGerne auch in höherer Güte.\nBitte keine Ware aus China.\nLieferung asap frei Werk Leipzig.\nAnfrage-Nr. 0504068\n\nMit freundlichen Grüßen\nMarco Hoffmann\nNowak Stahlbau GmbH\nLeipzig",
+  "received": "2026-11-07",
+  "sender": "Marco Hoffmann <einkauf@b068.example>",
+  "subject": "Anfrage S355J2"
+ },
+ "source": "trader correction"
+}

@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-03-15",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S235JR",
+    "length_mm": 2000.0,
+    "line": 1,
+    "quantity_t": 10.0,
+    "thickness_mm": 8.0,
+    "width_mm": 1190.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n\n1. approx. 10 tons sheets hot rolled S235JR 8 x 1190 x 2000; target price EUR 685/t\n\nA higher grade is fine as well.\nWith 3.1 certificate to EN 10204.\ndelivery 2026-12-02 delivered Brescia.\nEnquiry no. 0315089\n\nBest regards\nEva Bauer\nKaya Stahlbau GmbH\nBrescia",
+  "received": "2026-11-05",
+  "sender": "Eva Bauer <einkauf@b089.example>",
+  "subject": "RFQ S235JR"
+ },
+ "source": "trader correction"
+}

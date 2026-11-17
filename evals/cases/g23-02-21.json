@@ -1,0 +1,45 @@
+{
+ "case_id": "g23-02-21",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "strip",
+    "grade_id": "S275JR",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 7.0,
+    "thickness_mm": 20.0,
+    "width_mm": 465.0
+   },
+   {
+    "finish": "coated",
+    "form": "sheet",
+    "grade_id": "DX51D",
+    "length_mm": 6000.0,
+    "line": 2,
+    "quantity_t": 4.0,
+    "thickness_mm": 4.0,
+    "width_mm": 1340.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S355J2",
+    "length_mm": null,
+    "line": 3,
+    "quantity_t": 8.0,
+    "thickness_mm": 12.0,
+    "width_mm": 1250.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n1. 7 mt slit strip hot rolled St44-2 20 x 465 x coil mm\n2. 4 mt sheets hot-dip galvanised DX51D Z100 4 x 1340 x 6000 mm; 3 mm would also work\n3. 8 t coils hot rolled St52 12 x 1250 x coil\n\ndelivery 2026-11-20 delivered Poznań.\nEnquiry no. 0221029\n\nBest regards\nMarco Wagner\nNowak Stahlbau GmbH\nPoznań",
+  "received": "2026-11-04",
+  "sender": "Marco Wagner <einkauf@b029.example>",
+  "subject": "RFQ St44-2"
+ },
+ "source": "trader correction"
+}

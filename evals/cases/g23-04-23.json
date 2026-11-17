@@ -1,0 +1,31 @@
+{
+ "case_id": "g23-04-23",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "S355K2",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 20.0,
+    "thickness_mm": 4.0,
+    "width_mm": 1830.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [
+   {
+    "content_type": "application/pdf",
+    "data_b64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0NvbnRlbnRzIDcgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgNiAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNCAwIG9iago8PAovUGFnZU1vZGUgL1VzZU5vbmUgL1BhZ2VzIDYgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9BdXRob3IgKGFub255bW91cykgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9DcmVhdG9yIChhbm9ueW1vdXMpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAogIC9TdWJqZWN0ICh1bnNwZWNpZmllZCkgL1RpdGxlICh1bnRpdGxlZCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago2IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgMyAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMjEwCj4+CnN0cmVhbQpHYXI/KV8ublRmJ0xoYkZgRT4qKVIuaihqJD0tKFNScm03YkZ1LEQ/PitAaUdkSCdUcWRhQ0hAR0IpUTJXc0Y7cGdJLnRbcWtLa2lHPU0wXGExWT9eakcxcHVicUlXOUovKFpnPmliLWczS0xsYG0mO1lpXEs+YE9nX11EU15bWTNqYy1SLkw5TjRBbV0ibT1HZlM3P1VwUEpYZ2c2M1ttN0ZPIio8ZkBjPVYmRF1jIm9LYF85LUhlJmdpVUpxWD0yZXJEbjgwOixTK0prMzpbfj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA4CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMDkyIDAwMDAwIG4gCjAwMDAwMDAxOTkgMDAwMDAgbiAKMDAwMDAwMDQwMiAwMDAwMCBuIAowMDAwMDAwNDcwIDAwMDAwIG4gCjAwMDAwMDA3MzEgMDAwMDAgbiAKMDAwMDAwMDc5MCAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzw2MjQ5OTdhMmE0MjAzZDQyZmY2YmFhZTkzMDFhZGQ5MT48NjI0OTk3YTJhNDIwM2Q0MmZmNmJhYWU5MzAxYWRkOTE+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDUgMCBSCi9Sb290IDQgMCBSCi9TaXplIDgKPj4Kc3RhcnR4cmVmCjEwOTAKJSVFT0YK",
+    "filename": "Anfrage.pdf"
+   }
+  ],
+  "body": "Sehr geehrte Damen und Herren,\n\nAnfrage siehe PDF.\nGerne auch in höherer Güte.\nLieferung KW 48 frei Werk Leipzig.\nAnfrage-Nr. 0423016\n\nMit freundlichen Grüßen\nClaudia Klein\nde Vries Metallbau GmbH\nLeipzig",
+  "received": "2026-11-06",
+  "sender": "Claudia Klein <einkauf@b016.example>",
+  "subject": "Anfrage S355K2"
+ },
+ "source": "trader correction"
+}

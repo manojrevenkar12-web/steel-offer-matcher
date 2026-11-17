@@ -1,0 +1,45 @@
+{
+ "case_id": "g23-00-20",
+ "expected": {
+  "lines": [
+   {
+    "finish": "stainless",
+    "form": "sheet",
+    "grade_id": "1.4301",
+    "length_mm": 3000.0,
+    "line": 1,
+    "quantity_t": 10.0,
+    "thickness_mm": 1.5,
+    "width_mm": 1500.0
+   },
+   {
+    "finish": "cold_rolled",
+    "form": "sheet",
+    "grade_id": "DC04",
+    "length_mm": 3000.0,
+    "line": 2,
+    "quantity_t": 15.0,
+    "thickness_mm": 3.0,
+    "width_mm": 1000.0
+   },
+   {
+    "finish": "stainless",
+    "form": "coil",
+    "grade_id": "1.4301",
+    "length_mm": null,
+    "line": 3,
+    "quantity_t": 8.0,
+    "thickness_mm": 0.5,
+    "width_mm": 1500.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nplease quote:\n\n1. 10 mt sheets stainless 1.4301 1.5 x 1500 x 3000, finish 2B; target price EUR 2680/t\n2. approx. 15 tons sheets cold rolled 1.0338 3 x 1000 x 3000 mm\n3. 8 mt coils stainless 1.4301 0.5 x 1500 x coil mm, finish BA\n\ndelivery 2026-11-24 delivered Antwerpen.\nEnquiry no. 0020082\n\nBest regards\nStefan Bauer\nHoffmann Stahlbau GmbH\nAntwerpen",
+  "received": "2026-11-02",
+  "sender": "Stefan Bauer <einkauf@b082.example>",
+  "subject": "RFQ 1.4301"
+ },
+ "source": "trader correction"
+}

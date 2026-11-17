@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-02-02",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 4.0,
+    "thickness_mm": 15.0,
+    "width_mm": 2000.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nwe need 4 mt of hot rolled coils in S235JR+AR, 15 x 2000 x C. target price EUR 720/t.\ndelivery asap delivered Metz.\nEnquiry no. 0202066\n\nBest regards\nJulia Klein\nNowak Lasertechnik GmbH\nMetz",
+  "received": "2026-11-04",
+  "sender": "Julia Klein <einkauf@b066.example>",
+  "subject": "RFQ S235JR+AR"
+ },
+ "source": "trader correction"
+}

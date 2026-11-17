@@ -1,0 +1,54 @@
+/* Design tokens. Every colour, size and duration in the console comes from here. */
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Barlow", system-ui, sans-serif;
+  --font-display: "Barlow Condensed", "Barlow", system-ui, sans-serif;
+
+  --color-galvanised: #edf0f2;   /* page */
+  --color-panel: #ffffff;
+  --color-ink: #17212b;          /* mill scale */
+  --color-steel: #4a5b6b;        /* secondary text */
+  --color-rule: #d3dae0;
+  --color-rule-strong: #aab6c0;
+  --color-action: #1f4e79;       /* primary action */
+  --color-action-ink: #ffffff;
+  --color-chalk: #f2c230;        /* evidence marks, like a paint marker on a coil */
+  --color-chalk-soft: #fbedb8;
+  --color-pass: #2e7d5b;
+  --color-review: #a8701a;
+  --color-fail: #b03a3a;
+  --color-pass-soft: #e3f1ea;
+  --color-review-soft: #f7ecd6;
+  --color-fail-soft: #f6e1e1;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.75rem;
+  --text-2xl: 2.5rem;
+
+  --radius-tag: 0.375rem;
+  --radius-panel: 0.25rem;
+
+  --spacing-pane: 1.25rem;
+  --width-inbox: 21rem;
+  --width-lines: 30rem;
+}
+
+:root {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-galvanised);
+  font-feature-settings: "tnum" 1;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-action);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

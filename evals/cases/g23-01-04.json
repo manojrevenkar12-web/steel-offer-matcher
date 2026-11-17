@@ -1,0 +1,41 @@
+{
+ "case_id": "g23-01-04",
+ "expected": {
+  "lines": [
+   {
+    "finish": "cold_rolled",
+    "form": "coil",
+    "grade_id": "DC01",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 25.0,
+    "thickness_mm": 1.5,
+    "width_mm": 1220.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "sheet",
+    "grade_id": "DD13",
+    "length_mm": 2000.0,
+    "line": 2,
+    "quantity_t": 10.0,
+    "thickness_mm": 4.0,
+    "width_mm": 1830.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [
+   {
+    "content_type": "application/pdf",
+    "data_b64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0NvbnRlbnRzIDcgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgNiAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNCAwIG9iago8PAovUGFnZU1vZGUgL1VzZU5vbmUgL1BhZ2VzIDYgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9BdXRob3IgKGFub255bW91cykgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9DcmVhdG9yIChhbm9ueW1vdXMpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAogIC9TdWJqZWN0ICh1bnNwZWNpZmllZCkgL1RpdGxlICh1bnRpdGxlZCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago2IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgMyAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMjQ5Cj4+CnN0cmVhbQpHYXJwJV8rb1ZKJ1NZTG9UQWo0WCRiMUJmL1ckT1ppbFtPSCVtXT9jYDtrUC5SLEhePExsRWIkYyE/ayNJLTJ1MlRaYUghZk5aY283MUpzREFrQGAqVTlwdDova14pMjtaLWY/VGIsJWBoIUZsOVc2VUVmWkBEbWZfV05ORSU9QGlZWXE9MkpjaWZPR1dJPDZVZUBuJ1lJK3U0VzAyVzFJakBsTCxfU2NPXnBIUTEwKD00PStfW3VhMWJWKUtETyxPbjxpbEsqWlgqbHRrUlZcOkpvZGgkb1xMMUc6bGxuZjFDLkoqcmJdWTRGcjNhVzIkVTdpaGg+fj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA4CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMDkyIDAwMDAwIG4gCjAwMDAwMDAxOTkgMDAwMDAgbiAKMDAwMDAwMDQwMiAwMDAwMCBuIAowMDAwMDAwNDcwIDAwMDAwIG4gCjAwMDAwMDA3MzEgMDAwMDAgbiAKMDAwMDAwMDc5MCAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzw0NDRjZTg1NTc3ZTkzODk2YmJiY2E5ZjVkOThjNjNlZD48NDQ0Y2U4NTU3N2U5Mzg5NmJiYmNhOWY1ZDk4YzYzZWQ+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDUgMCBSCi9Sb290IDQgMCBSCi9TaXplIDgKPj4Kc3RhcnR4cmVmCjExMjkKJSVFT0YK",
+    "filename": "RFQ.pdf"
+   }
+  ],
+  "body": "Dear Sir or Madam,\n\nRFQ in the attached PDF.\nA higher grade is fine as well.\ndelivery asap delivered Antwerpen.\nEnquiry no. 0104006\n\nBest regards\nJulia Wagner\nWeber Behälterbau GmbH\nAntwerpen",
+  "received": "2026-11-03",
+  "sender": "Julia Wagner <einkauf@b006.example>",
+  "subject": "RFQ St12"
+ },
+ "source": "trader correction"
+}

@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-04-21",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S275JR",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 5.0,
+    "thickness_mm": 2.5,
+    "width_mm": 1250.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Dear Sir or Madam,\n\nwe need approx. 5 tons of hot rolled coils in S275, 2.5 x 1250 x coil.\nEquivalent grade acceptable.\nNo Asian material, please.\ndelivery asap delivered Iserlohn.\nEnquiry no. 0421041\n\nBest regards\nAnna Weber\nSchulz Stahlbau GmbH\nIserlohn",
+  "received": "2026-11-06",
+  "sender": "Anna Weber <einkauf@b041.example>",
+  "subject": "RFQ S275"
+ },
+ "source": "trader correction"
+}

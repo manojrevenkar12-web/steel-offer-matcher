@@ -1,0 +1,45 @@
+{
+ "case_id": "g23-02-04",
+ "expected": {
+  "lines": [
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S355K2",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 25.0,
+    "thickness_mm": 12.0,
+    "width_mm": 1520.0
+   },
+   {
+    "finish": "coated",
+    "form": "sheet",
+    "grade_id": "DX51D",
+    "length_mm": 6000.0,
+    "line": 2,
+    "quantity_t": 4.0,
+    "thickness_mm": 1.5,
+    "width_mm": 1340.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S355J2",
+    "length_mm": null,
+    "line": 3,
+    "quantity_t": 5.0,
+    "thickness_mm": 10.0,
+    "width_mm": 1500.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n1. 25 t Coils warmgewalzt S355K2 12,0 x 1.520 x C mm; Zielpreis 720 €/t\n2. 4 t Bleche feuerverzinkt DX51D Z140 1,5 x 1.340 x 6000; Zielpreis 860 €/t\n3. 5.000 kg Coils warmgewalzt S355J2 10 x 1.500 x C; Zielpreis 725 €/t\n\nMit APZ 3.1 nach EN 10204.\nLieferung KW 47 frei Werk Nürnberg.\nAnfrage-Nr. 0204039\n\nMit freundlichen Grüßen\nPieter Kaya\nKaya Maschinenbau GmbH\nNürnberg",
+  "received": "2026-11-04",
+  "sender": "Pieter Kaya <einkauf@b039.example>",
+  "subject": "Anfrage S355K2"
+ },
+ "source": "trader correction"
+}

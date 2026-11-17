@@ -1,0 +1,41 @@
+{
+ "case_id": "g23-04-01",
+ "expected": {
+  "lines": [
+   {
+    "finish": "coated",
+    "form": "coil",
+    "grade_id": "DX51D",
+    "length_mm": null,
+    "line": 1,
+    "quantity_t": 17.0,
+    "thickness_mm": 2.5,
+    "width_mm": 1000.0
+   },
+   {
+    "finish": "hot_rolled",
+    "form": "coil",
+    "grade_id": "S235JR",
+    "length_mm": null,
+    "line": 2,
+    "quantity_t": 20.0,
+    "thickness_mm": 3.0,
+    "width_mm": 1520.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [
+   {
+    "content_type": "application/pdf",
+    "data_b64": "JVBERi0xLjMKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgKG9wZW5zb3VyY2UpCjEgMCBvYmoKPDwKL0YxIDIgMCBSCj4+CmVuZG9iagoyIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhIC9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nIC9OYW1lIC9GMSAvU3VidHlwZSAvVHlwZTEgL1R5cGUgL0ZvbnQKPj4KZW5kb2JqCjMgMCBvYmoKPDwKL0NvbnRlbnRzIDcgMCBSIC9NZWRpYUJveCBbIDAgMCA1OTUuMjc1NiA4NDEuODg5OCBdIC9QYXJlbnQgNiAwIFIgL1Jlc291cmNlcyA8PAovRm9udCAxIDAgUiAvUHJvY1NldCBbIC9QREYgL1RleHQgL0ltYWdlQiAvSW1hZ2VDIC9JbWFnZUkgXQo+PiAvUm90YXRlIDAgL1RyYW5zIDw8Cgo+PiAKICAvVHlwZSAvUGFnZQo+PgplbmRvYmoKNCAwIG9iago8PAovUGFnZU1vZGUgL1VzZU5vbmUgL1BhZ2VzIDYgMCBSIC9UeXBlIC9DYXRhbG9nCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9BdXRob3IgKGFub255bW91cykgL0NyZWF0aW9uRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9DcmVhdG9yIChhbm9ueW1vdXMpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI2MTExNzE3MzMxMCswMScwMCcpIC9Qcm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gXChvcGVuc291cmNlXCkpIAogIC9TdWJqZWN0ICh1bnNwZWNpZmllZCkgL1RpdGxlICh1bnRpdGxlZCkgL1RyYXBwZWQgL0ZhbHNlCj4+CmVuZG9iago2IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgMyAwIFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjcgMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJSTg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMjU1Cj4+CnN0cmVhbQpHYXJwJFl0Yj9kJ0xxJlFWYDpMa1o/dSZFX2RdXF1ZVjkqPUtjcj5uMUo6Ml0oKisvVlQmLiEpOmEiIjc6QGQ6PCZIcUxpOTgiNlNJXUtFYGVTKCdbXDltQFVuQ09OKmsidGFGSkpCTFVcQio/Rz5HbDYjYWRLVVtSdWtBMEVOY20xaiRic19yQmA8SVVnI1FaS2s9J0gyYTJaZFprKVAuYTZecTVOLmklISktVjJzLTZoZkQnJnNeYmkxJ0slX2peLW9HVyRha0c4X0c7NF9RVTAqNUhFVmltTWJHQiZFLGw3ZVo4JGRJO29mQ105TztWKjErXUhpa2U8O2A0fj5lbmRzdHJlYW0KZW5kb2JqCnhyZWYKMCA4CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA2MSAwMDAwMCBuIAowMDAwMDAwMDkyIDAwMDAwIG4gCjAwMDAwMDAxOTkgMDAwMDAgbiAKMDAwMDAwMDQwMiAwMDAwMCBuIAowMDAwMDAwNDcwIDAwMDAwIG4gCjAwMDAwMDA3MzEgMDAwMDAgbiAKMDAwMDAwMDc5MCAwMDAwMCBuIAp0cmFpbGVyCjw8Ci9JRCAKWzxhMjU4MDU0ZmQzMzUzMTQ1MDczMzUwZDExMDU5ZjRkMT48YTI1ODA1NGZkMzM1MzE0NTA3MzM1MGQxMTA1OWY0ZDE+XQolIFJlcG9ydExhYiBnZW5lcmF0ZWQgUERGIGRvY3VtZW50IC0tIGRpZ2VzdCAob3BlbnNvdXJjZSkKCi9JbmZvIDUgMCBSCi9Sb290IDQgMCBSCi9TaXplIDgKPj4Kc3RhcnR4cmVmCjExMzUKJSVFT0YK",
+    "filename": "Anfrage.pdf"
+   }
+  ],
+  "body": "Sehr geehrte Damen und Herren,\n\nAnfrage siehe PDF.\n2. Wahl ist für uns auch interessant.\nLieferung 03.12. frei Werk Graz.\nAnfrage-Nr. 0401011\n\nMit freundlichen Grüßen\nThomas Klein\nRossi Maschinenbau GmbH\nGraz",
+  "received": "2026-11-06",
+  "sender": "Thomas Klein <einkauf@b011.example>",
+  "subject": "Anfrage DX51D Z140"
+ },
+ "source": "trader correction"
+}

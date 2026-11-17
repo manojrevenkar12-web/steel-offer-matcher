@@ -1,0 +1,32 @@
+{
+  "_about": "Clients of the API and the MCP server. Only token hashes are stored. These demo tokens are for local runs; production loads this file from the secret store (STEEL_DESKS_FILE).",
+  "clients": [
+    {
+      "client_id": "trader-desk",
+      "token_sha256": "9eebd9d15e2d16c98c67d4e51e87947b777850009e24149973ccfb8e83e976e3",
+      "scopes": [
+        "inventory:read",
+        "knowledge:read",
+        "rfq:read",
+        "rfq:match",
+        "rfq:review",
+        "inventory:write"
+      ]
+    },
+    {
+      "client_id": "erp-connector",
+      "token_sha256": "e4c09f76ba16c936d03cad8e5d3d223b2622d7eadf770ff80dc29069f230b952",
+      "scopes": [
+        "rfq:read"
+      ]
+    },
+    {
+      "client_id": "catalogue-bot",
+      "token_sha256": "608542d94c38b81fa4bfd8765813de3536f1ad7bdbe2bb39f2e7e27f726fa5bd",
+      "scopes": [
+        "inventory:read",
+        "knowledge:read"
+      ]
+    }
+  ]
+}

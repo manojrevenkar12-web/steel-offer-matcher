@@ -1,0 +1,25 @@
+{
+ "case_id": "g23-00-14",
+ "expected": {
+  "lines": [
+   {
+    "finish": "stainless",
+    "form": "sheet",
+    "grade_id": "1.4016",
+    "length_mm": 3000.0,
+    "line": 1,
+    "quantity_t": 15.0,
+    "thickness_mm": 0.5,
+    "width_mm": 1500.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n\n1. 15.000 kg Bleche Edelstahl 430 0,5 x 1.500 x 3000, Oberfläche BA; Zielpreis 1845 €/t\n\nMit APZ 3.1 nach EN 10204.\nLieferung 24.11. frei Werk Linz.\nAnfrage-Nr. 0014127\n\nMit freundlichen Grüßen\nMarco Becker\nKlein Anlagenbau GmbH\nLinz",
+  "received": "2026-11-02",
+  "sender": "Marco Becker <einkauf@b127.example>",
+  "subject": "Anfrage 430"
+ },
+ "source": "trader correction"
+}

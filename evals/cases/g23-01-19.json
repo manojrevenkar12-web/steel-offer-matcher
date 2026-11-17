@@ -1,0 +1,45 @@
+{
+ "case_id": "g23-01-19",
+ "expected": {
+  "lines": [
+   {
+    "finish": "cold_rolled",
+    "form": "sheet",
+    "grade_id": "DC04",
+    "length_mm": 2500.0,
+    "line": 1,
+    "quantity_t": 40.0,
+    "thickness_mm": 2.0,
+    "width_mm": 1220.0
+   },
+   {
+    "finish": "stainless",
+    "form": "sheet",
+    "grade_id": "1.4404",
+    "length_mm": 3000.0,
+    "line": 2,
+    "quantity_t": 14.0,
+    "thickness_mm": 1.25,
+    "width_mm": 1500.0
+   },
+   {
+    "finish": "coated",
+    "form": "sheet",
+    "grade_id": "DX51D",
+    "length_mm": 3000.0,
+    "line": 3,
+    "quantity_t": 20.0,
+    "thickness_mm": 1.5,
+    "width_mm": 1340.0
+   }
+  ]
+ },
+ "input": {
+  "attachments": [],
+  "body": "Sehr geehrte Damen und Herren,\n\nbitte bieten Sie an:\n1. 40 t Bleche kaltgewalzt DC04 2 x 1220 x 2500\n2. ca. 14 to Bleche Edelstahl X2CrNiMo17-12-2 1,25 x 1500 x 3000, Oberfläche 1D; Zielpreis 3880 €/t\n3. 20 t Bleche feuerverzinkt St02Z Z100 1,5 x 1.340 x 3000\n\nLieferung KW 46 frei Werk Siegen.\nAnfrage-Nr. 0119086\n\nMit freundlichen Grüßen\nJulia Weber\nKlein Blechtechnik GmbH\nSiegen",
+  "received": "2026-11-03",
+  "sender": "Julia Weber <einkauf@b086.example>",
+  "subject": "Anfrage DC04"
+ },
+ "source": "trader correction"
+}

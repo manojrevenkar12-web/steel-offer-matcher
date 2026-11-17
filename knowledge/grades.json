@@ -1,0 +1,62 @@
+{
+  "_about": "Steel grade knowledge base. Each grade has one canonical id. Aliases are designations that name the same material (current EN name, material number, superseded DIN names) and resolve automatically. 'comparable' lists grades from other standards that are close but not identical: they never resolve automatically and always go to review. 'level' orders grades inside a family: a higher level may replace a lower one only when the buyer allows upgrades. Values are simplified for matching and are not a substitute for the standards.",
+  "families": {
+    "structural": "Non-alloy structural steel, EN 10025-2",
+    "hr_forming": "Hot-rolled low-carbon steel for cold forming, EN 10111",
+    "cr_forming": "Cold-rolled low-carbon steel for cold forming, EN 10130",
+    "coated_forming": "Hot-dip coated steel for cold forming, EN 10346",
+    "coated_structural": "Hot-dip coated structural steel, EN 10346",
+    "stainless_austenitic": "Austenitic stainless steel, EN 10088-2",
+    "stainless_ferritic": "Ferritic stainless steel, EN 10088-2"
+  },
+  "grades": [
+    {"id": "S235JR", "number": "1.0038", "family": "structural", "level": 10, "yield_mpa": 235, "impact_c": 20, "cev_max": 0.35,
+     "aliases": ["St37-2", "RSt37-2", "S235JRG2", "USt37-2"], "comparable": ["ASTM A36", "Q235B"]},
+    {"id": "S235J0", "number": "1.0114", "family": "structural", "level": 11, "yield_mpa": 235, "impact_c": 0, "cev_max": 0.35,
+     "aliases": ["St37-3U"], "comparable": []},
+    {"id": "S235J2", "number": "1.0117", "family": "structural", "level": 12, "yield_mpa": 235, "impact_c": -20, "cev_max": 0.35,
+     "aliases": ["St37-3N", "S235J2G3"], "comparable": []},
+    {"id": "S275JR", "number": "1.0044", "family": "structural", "level": 20, "yield_mpa": 275, "impact_c": 20, "cev_max": 0.40,
+     "aliases": ["St44-2"], "comparable": []},
+    {"id": "S275J0", "number": "1.0143", "family": "structural", "level": 21, "yield_mpa": 275, "impact_c": 0, "cev_max": 0.40,
+     "aliases": ["St44-3U"], "comparable": []},
+    {"id": "S275J2", "number": "1.0145", "family": "structural", "level": 22, "yield_mpa": 275, "impact_c": -20, "cev_max": 0.40,
+     "aliases": ["St44-3N"], "comparable": []},
+    {"id": "S355JR", "number": "1.0045", "family": "structural", "level": 30, "yield_mpa": 355, "impact_c": 20, "cev_max": 0.45,
+     "aliases": [], "comparable": ["ASTM A572 Gr50"]},
+    {"id": "S355J0", "number": "1.0553", "family": "structural", "level": 31, "yield_mpa": 355, "impact_c": 0, "cev_max": 0.45,
+     "aliases": ["St52-3U"], "comparable": []},
+    {"id": "S355J2", "number": "1.0577", "family": "structural", "level": 32, "yield_mpa": 355, "impact_c": -20, "cev_max": 0.45,
+     "aliases": ["St52-3", "St52-3N", "S355J2G3", "S355J2+N"], "comparable": ["Q355B"]},
+    {"id": "S355K2", "number": "1.0596", "family": "structural", "level": 33, "yield_mpa": 355, "impact_c": -20, "cev_max": 0.45,
+     "aliases": ["S355K2G3"], "comparable": []},
+
+    {"id": "DD11", "number": "1.0332", "family": "hr_forming", "level": 10, "aliases": ["StW22"], "comparable": []},
+    {"id": "DD12", "number": "1.0398", "family": "hr_forming", "level": 11, "aliases": ["RRStW23"], "comparable": []},
+    {"id": "DD13", "number": "1.0335", "family": "hr_forming", "level": 12, "aliases": ["StW24"], "comparable": []},
+    {"id": "DD14", "number": "1.0389", "family": "hr_forming", "level": 13, "aliases": [], "comparable": []},
+
+    {"id": "DC01", "number": "1.0330", "family": "cr_forming", "level": 10, "aliases": ["St12", "St12-03"], "comparable": ["SPCC"]},
+    {"id": "DC03", "number": "1.0347", "family": "cr_forming", "level": 11, "aliases": ["St13", "RRSt13"], "comparable": []},
+    {"id": "DC04", "number": "1.0338", "family": "cr_forming", "level": 12, "aliases": ["St14", "St14-03"], "comparable": []},
+    {"id": "DC05", "number": "1.0312", "family": "cr_forming", "level": 13, "aliases": [], "comparable": []},
+    {"id": "DC06", "number": "1.0873", "family": "cr_forming", "level": 14, "aliases": [], "comparable": []},
+
+    {"id": "DX51D", "number": "1.0917", "family": "coated_forming", "level": 10, "aliases": ["St02Z"], "comparable": ["SGCC"]},
+    {"id": "DX52D", "number": "1.0918", "family": "coated_forming", "level": 11, "aliases": ["St03Z"], "comparable": []},
+    {"id": "DX53D", "number": "1.0951", "family": "coated_forming", "level": 12, "aliases": ["St05Z"], "comparable": []},
+    {"id": "DX54D", "number": "1.0952", "family": "coated_forming", "level": 13, "aliases": ["St06Z"], "comparable": []},
+
+    {"id": "S250GD", "number": "1.0242", "family": "coated_structural", "level": 10, "yield_mpa": 250, "aliases": ["StE250-2Z"], "comparable": []},
+    {"id": "S280GD", "number": "1.0244", "family": "coated_structural", "level": 11, "yield_mpa": 280, "aliases": ["StE280-2Z"], "comparable": []},
+    {"id": "S320GD", "number": "1.0250", "family": "coated_structural", "level": 12, "yield_mpa": 320, "aliases": ["StE320-3Z"], "comparable": []},
+    {"id": "S350GD", "number": "1.0529", "family": "coated_structural", "level": 13, "yield_mpa": 350, "aliases": ["StE350-3Z"], "comparable": []},
+
+    {"id": "1.4301", "number": "1.4301", "family": "stainless_austenitic", "level": 10, "aliases": ["X5CrNi18-10", "AISI 304", "V2A"], "comparable": ["SUS304"], "may_replace": []},
+    {"id": "1.4307", "number": "1.4307", "family": "stainless_austenitic", "level": 11, "aliases": ["X2CrNi18-9", "AISI 304L"], "comparable": [], "may_replace": ["1.4301"]},
+    {"id": "1.4401", "number": "1.4401", "family": "stainless_austenitic", "level": 20, "aliases": ["X5CrNiMo17-12-2", "AISI 316"], "comparable": [], "may_replace": ["1.4301", "1.4307"]},
+    {"id": "1.4404", "number": "1.4404", "family": "stainless_austenitic", "level": 21, "aliases": ["X2CrNiMo17-12-2", "AISI 316L", "V4A"], "comparable": [], "may_replace": ["1.4301", "1.4307", "1.4401"]},
+    {"id": "1.4016", "number": "1.4016", "family": "stainless_ferritic", "level": 10, "aliases": ["X6Cr17", "AISI 430"], "comparable": [], "may_replace": []},
+    {"id": "1.4509", "number": "1.4509", "family": "stainless_ferritic", "level": 11, "aliases": ["X2CrTiNb18", "AISI 441"], "comparable": [], "may_replace": ["1.4016"]}
+  ]
+}
